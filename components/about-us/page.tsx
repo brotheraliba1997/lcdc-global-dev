@@ -8,14 +8,14 @@ function AboutUs() {
   return (
     <div className="py-20">
       <div className="grid lg:grid-cols-2 grid-cols-1 justify-center gap-10 items-center">
-        <div className="lg:relative flex justify-center">
-          <div className="lg:bg-[#21D279] bg-none lg:w-[200px] lg:h-[720px] ">
-            <div className="lg:absolute lg:top-17  lg:left-[85px] lg:px-0 px-5">
+        <div className="lg:relative">
+          <div className="lg:bg-[#21D279] bg-none lg:w-[200px] lg:h-[650px] ">
+            <div className="lg:absolute lg:top-12  lg:left-[85px] lg:px-0 px-5">
               <Image
                 src={link}
                 // width={650}
                 // height={400}
-                className="lg:w-[650px] w-[600px] lg:h-[400px] h-[300px]"
+                className="lg:w-[750px] w-[600px] lg:h-[600px] h-[300px]"
                 objectFit="contain"
                 alt="logo"
               />
@@ -23,7 +23,7 @@ function AboutUs() {
           </div>
         </div>
 
-        <div className="flex flex-col lg:justify-normal justify-center lg:items-normall items-center gap-15 w-full lg:pr-30 pr-0 lg:px-0 px-4">
+<div className="flex flex-col lg:justify-start justify-center lg:items-start items-center gap-15 w-full lg:pr-30 pr-0 lg:px-0 px-4">
           <h1 className="lg:text-[40px] text-[25px] font-bold">About us</h1>
           <p className="lg:text-[18px] text-[14px] text-[#474745]">
             At LCDC Global Ltd, we are a business development company focused on
