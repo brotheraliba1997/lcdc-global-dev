@@ -2,7 +2,7 @@ import React from 'react'
 
 function Container({children}:any) {
   return (
-    <div className='mx-auto w-[80%]'>
+    <div className='mx-auto lg:w-[80%] w-[90%]'>
       {children}
     </div>
   )

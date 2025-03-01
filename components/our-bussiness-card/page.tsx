@@ -10,25 +10,25 @@ import Container from "../container/container";
 function OurBussinessCard() {
   return (
     <div className="my-20">
-      <h1 className="my-20 text-center text-[40px] font-bold">
+      <h1 className="my-20 text-center lg:text-[40px] text-[20px] font-bold">
         Our Businesses
       </h1>
-      <div className="mx-auto w-[60%]">
+      <div className="mx-auto lg:w-[60%] w-[90%]">
 
       
-      <div className="my-20 flex  justify-center items-center gap-16">
+      <div className="my-20 flex lg:flex-row flex-col justify-center items-center gap-16">
         <div className="border border-gray-300 py-12 px-8 rounded-2xl shadow-lg">
           <div className="flex flex-col justify-center items-center gap-8">
             <div>
               <Image
                 src={logo}
-                width={200}
+                width={300}
                 height={200}
                 objectFit="contain"
                 alt="logo"
               />
             </div>
-            <p className="text-center">
+            <p className="text-center lg:text-[18px] text-[12px]">
             Lorem ipsum dolor sit amet consectetur. Parturient integer commodo lacus fusce tortor quam. Purus fermentum nam egestas vehicula cursus vel. Commodo eget porta fermentum eget vehicula. Auctor ultrices habitasse amet tellus netus montes sagittis viverra.
             </p>
             <div className="w-full">
@@ -43,14 +43,14 @@ function OurBussinessCard() {
           <div className="flex flex-col justify-center items-center gap-8">
             <div>
               <Image
-                src={lord}
-                width={200}
+                src={logo}
+                width={300}
                 height={200}
                 objectFit="contain"
                 alt="logo"
               />
             </div>
-            <p className="text-center">
+            <p className="text-center lg:text-[18px] text-[12px]">
             Lorem ipsum dolor sit amet consectetur. Parturient integer commodo lacus fusce tortor quam. Purus fermentum nam egestas vehicula cursus vel. Commodo eget porta fermentum eget vehicula. Auctor ultrices habitasse amet tellus netus montes sagittis viverra.
             </p>
             <div className="w-full">

@@ -13,8 +13,8 @@ function Footer() {
     <div>
       <div className="bg-[#F6F7F9]  py-20">
         <Container>
-          <div className="grid grid-cols-4 justify-between items-center">
-            <div className="col-span-2">
+          <div className="grid lg:grid-cols-4 grid-cols-1 lg:gap-0 gap-4 justify-between items-center">
+            <div className="lg:col-span-2 col-span-0">
               <div>
                 <Image
                   src={logo}
@@ -50,12 +50,13 @@ function Footer() {
             <div className="flex flex-col gap-2">
               <h1 className="text-[20px] font-bold">Quick Links</h1>
               <p className="font-normal">Home</p>
-              <p>Home</p>
-              <p>Home</p>
-              <p>Home</p>
+              <p>About Us</p>
+              <p>Services</p>
+              <p>Get In Touch</p>
+              <p>FAQ’s</p>
             </div>
 
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-5">
               <h1 className="text-[20px] font-bold">Contact us</h1>
 
               <div className="flex gap-2">
@@ -88,11 +89,11 @@ function Footer() {
         </Container>
       </div>
       <Container>
-        <div className="flex justify-between items-center py-5">
-          <div>© 2025 LCDC Global All rights reserved.</div>
+        <div className="flex lg:flex-row flex-col gap-3 justify-between items-center py-5">
+          <div className="lg:text-[20px] text-[14px]">© 2025 LCDC Global All rights reserved.</div>
           <div className="flex gap-4">
-            <p className="text-[#21D279]">Privacy Policy </p>
-            <p className="text-[#21D279]">Terms of Service </p>
+            <p className="text-[#21D279] lg:text-[16px] text-[12px]">Privacy Policy </p>
+            <p className="text-[#21D279] lg:text-[16px] text-[12px]">Terms of Service </p>
           </div>
         </div>
       </Container>
