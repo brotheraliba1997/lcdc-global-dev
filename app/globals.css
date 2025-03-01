@@ -17,8 +17,27 @@
   }
 }
 
-body {
+/* body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+} */
+
+
+
+
+/* Globally apply the font */
+body, h1, h2, h3, h4, h5, h6, p, span, a {
+  font-family: 'Roc Grotesk', sans-serif;
 }
+
+.banner-image{
+  background-image: url("../assets/business-scene-with-nature 1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 800px;
+  width: 100%;
+  background-position: center;
+
+}
+
